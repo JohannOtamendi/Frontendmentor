@@ -15,13 +15,15 @@ section{
     justify-content: space-around;
     align-items:center;
 }
-
+section div img{
+    border-radius: 15px ;
+}
 .imagecontainer{
     width: 200px;
     height: auto;
     background-color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 15px;
     text-align: center;
 }
 
@@ -39,10 +41,17 @@ section{
 .imagecontainer :nth-child(3){
     padding: 10px;
     font-family: "outfit", sans-serif;
+    font-size: 15px;
+    color: gray;
 }
 
-@media screen and (max-width: 375px){
-    
+@media screen and (max-width: 180px){
+    .imagecontainer :nth-child(2){
+        font-size: 13px;
+    }
+    .imagecontainer :nth-child(3){
+        font-size: 11px;
+    }
 }
     
 
